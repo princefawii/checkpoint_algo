@@ -1,0 +1,22 @@
+//checkpoint: o write an algorithm that read a sentence, which ends with a point, 
+character by character by putting into consideration:
+//The length of the sentence (the number of characters).
+//The number of words in the sentence (assuming that the words are separated by a single space).
+//The number of vowels in the sentence.
+//In this type of program, the first thing is to:identify and define the problem above.
+Identifying the constraints that should be taken into consideration while solving the problem
+ for instance here the looping over the characters which is STRING.
+ STEP 1: Declare three variables: let numbc, numbw, numbv:= INTERGER(These three variables are respectively 
+ counters for characters, words and vowels) 
+ STEP 2: Declare another variable: let sentc:= STRING(for the characters that will be looped over on inccuding
+ space this time around)
+ STEP 3: Initialize the counters:
+ numbc:= 0
+ numbw:= 1
+ numbv:= 0
+ STEP 4: write("type the sentence")
+ then read(sentc)
+ STEP 5: Validate if sentence contain space and loop by increamenting e.g
+ if (sentc[numbc]:=" ") numbw:= numbw +1
+ REPEAT for vowels and words
+Final step: Write the result
